@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/dark-theme.css">
+    <title>Encriptador alura</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Toggle Dark Theme</h1>
+      <label class="switch">
+          <input type="checkbox" id="darkModeToggle">
+          <span class="slider"></span>
+      </label>
+  </div>
+
+    <main>
+      <header>
+        <img
+          id="logo-encriptador"
+          src="img/Logo.svg"
+          alt="logo encriptador"
+          srcset=""
+        />
+      </header>
+      <input
+        name=""
+        id="contenedor-input-texto"
+        placeholder="Ingrese el texto aqui"
+      />
+    </main>
+
+    <p id="mensaje-tipo-letra-acepta">
+      <i class="icon-before-mensaje"></i> Solo letras minusculas y sin acentos
+    </p>
+
+    <section class="buttons-encriptar-desencriptar">
+      <button id="btn-encriptar">Encriptar</button>
+
+      <button id="btn-desencriptar">Desencriptar</button>
+    </section>
+
+    <aside id="init-image-message">
+      <img
+        id="img-muñeco"
+        src="img/Muñeco.jpg"
+        alt="muñeco con lupa"
+        srcset=""
+      />
+        <section id="contenedor-mensaje-texto-encriptado">
+          <strong class="main-message">Ningún mensaje fue encontrado</strong>
+          <p class="child-message">Ingresa el texto que desees encriptar o desencriptar</p>
+        </section>
+    </aside>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
